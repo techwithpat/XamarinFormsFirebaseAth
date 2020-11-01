@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamFormsFirebaseAuth.Features.Login.NewUserPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Center">
+            <Label Text="Sign up"
+                    Style="{StaticResource HeaderLabel}"/>
+
+            <Entry Placeholder="Name"
+                   Text="{Binding Username}" />
+
+            <Entry Placeholder="Email"
+                   Text="{Binding Email}" />
+
+            <Entry Placeholder="Password"
+                   IsPassword="True"
+                   Text="{Binding Password}"/>
+
+            <Button Text="Sign Up"                   
+                    Command="{Binding SignUpCommand}"
+                    Style="{StaticResource PrimaryButton}"/>
+
+            <Button Text="Already have an account ? sign-in"
+                    Command="{Binding SignUpCommand}"
+                    Style="{StaticResource SecondaryButton}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

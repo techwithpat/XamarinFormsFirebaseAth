@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamFormsFirebaseAuth.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Blue">#00bcd4</Color>
+            <Color x:Key="Orange">#ff5722</Color>
+            <Color x:Key="Red">#dd2c00</Color>
+            <Color x:Key="Summer">#b2ebf2</Color>
+
+            <Style TargetType="Button" x:Key="PrimaryButton" >
+                <Setter Property="BackgroundColor" Value="{StaticResource Orange}" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+
+            <Style TargetType="Button" x:Key="SecondaryButton" >
+                <Setter Property="TextColor" Value="{StaticResource Blue}" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+
+            <Style TargetType="Label" x:Key="HeaderLabel">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="Margin" Value="20" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
