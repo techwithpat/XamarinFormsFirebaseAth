@@ -3,6 +3,8 @@ Code companion to a video tutorial about using Firebase authentication in a Xama
 
 You should add a Firebase config file "GoogleService-Info.plist" in the Target project.
 
+The branch "add-android" added the Android implementation
+
 The video is available here : 
 
 https://youtu.be/H-hZR123D9c
