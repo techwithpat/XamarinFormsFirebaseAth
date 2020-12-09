@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "99239336574",
+    "firebase_url": "https://fir-101-ade63.firebaseio.com",
+    "project_id": "fir-101-ade63",
+    "storage_bucket": "fir-101-ade63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99239336574:android:cfd20e9ba1a5cc7e96562f",
+        "android_client_info": {
+          "package_name": "com.makanda.XamFormsFirebaseAuth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99239336574-o504tvik75rr9ig1ooh91a7ckvli23lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAI5sH53Os_Ki7qLMlV51pXgM62kiz9ME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99239336574-o504tvik75rr9ig1ooh91a7ckvli23lj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "99239336574-g3b5ftl4crph1esdln0rrrtsj60e807v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.makanda.XamFirebaseAuth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

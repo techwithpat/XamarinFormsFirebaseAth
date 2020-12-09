@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsFirebaseAuth.iOS", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamFormsFirebaseAuth", "XamFormsFirebaseAuth\XamFormsFirebaseAuth.csproj", "{83EAD294-9D87-4484-B76C-A4C9E249AEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsFirebaseAuth.Android", "XamFormsFirebaseAuth.Android\XamFormsFirebaseAuth.Android.csproj", "{16A1803B-BDC1-498E-9615-951DC3B3A1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,24 @@ Global
 		{83EAD294-9D87-4484-B76C-A4C9E249AEB2}.Release|iPhone.Build.0 = Release|Any CPU
 		{83EAD294-9D87-4484-B76C-A4C9E249AEB2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{83EAD294-9D87-4484-B76C-A4C9E249AEB2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|iPhone.Build.0 = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{16A1803B-BDC1-498E-9615-951DC3B3A1E9}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
