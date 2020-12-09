@@ -22,6 +22,7 @@ namespace XamFormsFirebaseAuth.Android
 
                 Xamarin.Essentials.Platform.Init(this, savedInstanceState);
                 global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
                 FirebaseApp.InitializeApp(Application.Context);
                 LoadApplication(new App());
             }

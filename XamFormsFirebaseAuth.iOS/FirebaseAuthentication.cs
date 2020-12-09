@@ -9,23 +9,14 @@ namespace XamFormsFirebaseAuth.iOS
     {
         public async Task<bool> CreateUser(string username, string email, string password)
         {
-            try
-            {
-                var authResult = await Auth.DefaultInstance
-                    .CreateUserAsync(email, password);
+            var authResult = await Auth.DefaultInstance
+                   .CreateUserAsync(email, password);
 
-                var changeRequest = authResult.User.ProfileChangeRequest();
-                changeRequest.DisplayName = username;
-                await changeRequest.CommitChangesAsync();
+            var changeRequest = authResult.User.ProfileChangeRequest();
+            changeRequest.DisplayName = username;
+            await changeRequest.CommitChangesAsync();
 
-                return await Task.FromResult(true);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-
-                return await Task.FromResult(false);
-            }
+            return await Task.FromResult(true);
         }
 
         public bool IsSignIn()
